@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="form.css"> -->
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- #HEADER -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+            <ion-icon name="time"></ion-icon>
+
+            <p data-i18n="opening">Mon-Sat: 10:00am - 9:00pm | Sunday: Closed</p>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:info@example.com" class="contact-link">ekdant@gmail.com</a>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+919594800509" class="contact-link">+91 95948 00509</a>
+          </li>
+
+        </ul>
+
+        <ul class="drop">
+          <select id="language-select" onchange="changeLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+            <option value="mr">मराठी</option>
+            <option value="gu">ગુજરાતી</option>
+          </select>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a data-i18n="logo_name" href="index.html" class="logo">Ekdant</a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li>
+              <a data-i18n="nav_home" href="index.html#" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a data-i18n="nav_services" href="index.html#service" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li>
+              <a data-i18n="nav_about" href="index.html#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li>
+              <a data-i18n="nav_contact" href="#footer" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <a data-i18n="appointment" href="appointment.html" class="btn">appointment paused</a>
+
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+  <main>
+    <article>
+      <section class="section hygiene" id="hygiene" aria-label="more_info">
+
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p data-i18n="moreinfo" class="section-subtitle">more info</p>
+
+            <h1 data-i18n="hygiene_title" class="h1 hero-title">Oral Hygiene</h1>
+
+            <p data-i18n="hygienep1" class="hero-text">Oral hygiene is a critical component of overall health and well-being, involving practices that maintain the cleanliness and health of the mouth. This encompasses the teeth, gums, and tongue, preventing the onset of dental problems such as cavities, gum disease, and bad breath. Effective oral hygiene habits are fundamental to maintaining a healthy smile and preventing systemic health issues.</p>
+
+            <p data-i18n="hygienep2" class="hero-text">Brushing teeth twice a day with fluoride toothpaste is the cornerstone of good oral hygiene. It helps remove plaque, a sticky film of bacteria that forms on teeth and can lead to decay and gum disease if not properly managed. Using a soft-bristled toothbrush and following a proper technique, including brushing for at least two minutes, ensures thorough cleaning of all tooth surfaces and the gum line.</p>
+
+            <p data-i18n="hygienep3" class="hero-text">Flossing daily is equally important, as it removes food particles and plaque from areas that toothbrushes cannot reach, such as between the teeth and under the gum line. This practice helps prevent cavities and gum inflammation, reducing the risk of periodontal diseases. For those who find traditional flossing challenging, alternatives like water flossers or interdental brushes can be effective.</p>
+
+            <p data-i18n="hygienep4" class="hero-text">Regular dental check-ups and professional cleanings are crucial components of oral hygiene. Dentists can detect early signs of dental problems, perform thorough cleanings to remove tartar buildup, and offer personalized advice on maintaining oral health. Routine visits typically occur every six months but may be more frequent for individuals with specific dental conditions or risk factors.</p>
+
+            <p data-i18n="hygienep5" class="hero-text">Maintaining a healthy diet is also integral to oral hygiene. Foods and drinks high in sugars and acids can contribute to tooth decay and enamel erosion. Limiting sugary snacks and beverages, drinking plenty of water, and consuming a balanced diet rich in fruits, vegetables, and dairy products help protect teeth and gums. Additionally, avoiding tobacco products can significantly reduce the risk of oral cancer and gum disease.</p>
+            
+            <p data-i18n="hygienep6" class="hero-text">Overall, good oral hygiene practices not only protect against dental problems but also contribute to overall health, as poor oral health has been linked to conditions such as heart disease and diabetes. By adopting and maintaining effective oral hygiene habits, individuals can enjoy a healthy mouth, a bright smile, and a better quality of life.</p>
+
+          </div>
+
+        </div>
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="footer" id="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a data-i18n="foot_logo_name" href="#" class="logo">Ekdant</a>
+
+          <p data-i18n="foot_text" class="footer-text">
+            Welcome to our Clinic, where your dental health is our priority.Visit us for exceptional dental care in a
+            friendly and modern setting.
+          </p>
+          <br>
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span data-i18n="foot_span" class="span">
+              Monday - Saturday:<br>
+              10:00 am - 9:00 pm<br>
+              Sunday: Closed
+            </span>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p data-i18n="foot_list_title" class="footer-list-title">Other Links</p>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_home" class="span">Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_about" class="span">About Us</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#service" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_services" class="span">Services</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#team" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_team" class="span">Our Team</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#location" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_location" class="span">Latest location</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p data-i18n="foot_list_title1" class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="canal.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_root" class="span">Root Canal</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="align.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_align" class="span">Teeth Alignment</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="cosmetic.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_cosmetic" class="span">Cosmetic Teeth</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="hygiene.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_hygiene" class="span">Oral Hygiene</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="live.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_live" class="span">Live Advisory</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="cavity.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_cavity" class="span">Cavity Inspection</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p data-i18n="foot_contact" class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address data-i18n="foot_address" class="item-text">
+              Ekdant Dental Clinic, Shop 7,<br>
+              Building 162, Kandivali East, Mumbai - 400101
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+917052101786" class="footer-link">+91 95948 00509</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:help@example.com" class="footer-link">ekdant@gmail.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p data-i18n="foot_copy" class="copyright">
+          &copy; 2024 All Rights Reserved by Ekdant
+
+        </p>
+
+        <ul class="social-list">
+
+          <span data-i18n="foot_span1">Created by</span>
+          <a data-i18n="foot_creator"
+            style="display: inline-flex; color: rgb(170, 220, 240); text-decoration: underline "
+            href="http://linkedin.com/in/harsh-exe" target="_blank"></a>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- BACK TO TOP AND CALL BUTTON -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up" aria-hidden="true"><ion-icon>
+  </a>
+  <a href="tel:+919594800509" class="call-btn" aria-label="call button">
+    <ion-icon name="call"></ion-icon>
+  </a>
+
+  <!-- SCRIPT -->
+
+  <script src="script.js" defer></script>
+
+  <!-- IONICON -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="form.css"> -->
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- #HEADER -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+            <ion-icon name="time"></ion-icon>
+
+            <p data-i18n="opening">Mon-Sat: 10:00am - 9:00pm | Sunday: Closed</p>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:info@example.com" class="contact-link">ekdant@gmail.com</a>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+919594800509" class="contact-link">+91 95948 00509</a>
+          </li>
+
+        </ul>
+
+        <ul class="drop">
+          <select id="language-select" onchange="changeLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+            <option value="mr">मराठी</option>
+            <option value="gu">ગુજરાતી</option>
+          </select>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a data-i18n="logo_name" href="index.html" class="logo">Ekdant</a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li>
+              <a data-i18n="nav_home" href="index.html#" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a data-i18n="nav_services" href="index.html#service" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li>
+              <a data-i18n="nav_about" href="index.html#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li>
+              <a data-i18n="nav_contact" href="#footer" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <a data-i18n="appointment" href="appointment.html" class="btn">appointment paused</a>
+
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+  <main>
+    <article>
+      <section class="section live" id="live" aria-label="more_info">
+
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p data-i18n="moreinfo" class="section-subtitle">more info</p>
+
+            <h1 data-i18n="live_title" class="h1 hero-title">Live Advisory</h1>
+
+            <p data-i18n="livep1" class="hero-text">Live advisory is a dynamic and interactive approach to providing real-time guidance and support, often used in educational, financial, and business contexts. It leverages live communication tools to offer personalized advice, ensuring timely and relevant assistance. This form of advisory service is crucial for individuals and organizations seeking immediate insights and solutions to complex problems.</p>
+
+            <p data-i18n="livep2" class="hero-text">In education, live advisory services are instrumental in helping students navigate academic challenges and career planning. Advisors provide real-time support through online platforms, addressing questions about course selection, study strategies, and career pathways. This personalized guidance helps students make informed decisions, enhancing their educational experience and preparing them for future success.</p>
+
+            <p data-i18n="livep3" class="hero-text">In the financial sector, live advisory is pivotal for investors and clients needing prompt, expert advice on managing their finances. Financial advisors offer real-time consultations via phone or video calls, providing insights on market trends, investment opportunities, and risk management. This immediate access to expert advice helps clients make timely financial decisions, optimizing their investment outcomes and financial health.</p>
+
+            <p data-i18n="livep4" class="hero-text">Businesses also benefit significantly from live advisory services. Whether it's strategic planning, marketing, or operational issues, live advisors provide on-the-spot support to address urgent needs. For instance, during a crisis or major business decision, having access to a live advisor can offer valuable perspectives and solutions that help navigate challenges effectively, ensuring business continuity and growth.</p>
+
+            <p data-i18n="livep5" class="hero-text">The use of advanced technology is central to the effectiveness of live advisory services. Platforms that enable instant messaging, video conferencing, and screen sharing facilitate seamless and interactive communication between advisors and clients. This technology ensures that advice is not only timely but also contextually relevant, allowing for a more comprehensive and practical approach to problem-solving.</p>
+
+            <p data-i18n="livep6" class="hero-text">Moreover, live advisory services foster a more personal connection between advisors and clients. The ability to have a direct, real-time conversation builds trust and rapport, making it easier for advisors to understand and address the unique needs of their clients. This personalized approach enhances the overall advisory experience, leading to more effective and satisfactory outcomes.</p>
+
+            <p data-i18n="livep7" class="hero-text">Overall, live advisory services play a critical role in providing immediate, expert guidance across various domains. They empower individuals and organizations to make informed decisions, respond to challenges swiftly, and achieve their goals more efficiently. As technology continues to evolve, the scope and effectiveness of live advisory services are expected to expand, offering even greater value to those who seek real-time support and advice.</p>
+
+          </div>
+
+        </div>
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="footer" id="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a data-i18n="foot_logo_name" href="#" class="logo">Ekdant</a>
+
+          <p data-i18n="foot_text" class="footer-text">
+            Welcome to our Clinic, where your dental health is our priority.Visit us for exceptional dental care in a
+            friendly and modern setting.
+          </p>
+          <br>
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span data-i18n="foot_span" class="span">
+              Monday - Saturday:<br>
+              10:00 am - 9:00 pm<br>
+              Sunday: Closed
+            </span>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p data-i18n="foot_list_title" class="footer-list-title">Other Links</p>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_home" class="span">Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_about" class="span">About Us</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#service" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_services" class="span">Services</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#team" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_team" class="span">Our Team</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#location" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_location" class="span">Latest location</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p data-i18n="foot_list_title1" class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="canal.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_root" class="span">Root Canal</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="align.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_align" class="span">Teeth Alignment</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="cosmetic.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_cosmetic" class="span">Cosmetic Teeth</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="hygiene.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_hygiene" class="span">Oral Hygiene</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="live.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_live" class="span">Live Advisory</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="cavity.html" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span data-i18n="foot_cavity" class="span">Cavity Inspection</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p data-i18n="foot_contact" class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address data-i18n="foot_address" class="item-text">
+              Ekdant Dental Clinic, Shop 7,<br>
+              Building 162, Kandivali East, Mumbai - 400101
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+917052101786" class="footer-link">+91 95948 00509</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:help@example.com" class="footer-link">ekdant@gmail.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p data-i18n="foot_copy" class="copyright">
+          &copy; 2024 All Rights Reserved by Ekdant
+
+        </p>
+
+        <ul class="social-list">
+
+          <span data-i18n="foot_span1">Created by</span>
+          <a data-i18n="foot_creator"
+            style="display: inline-flex; color: rgb(170, 220, 240); text-decoration: underline "
+            href="http://linkedin.com/in/harsh-exe" target="_blank"></a>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- BACK TO TOP AND CALL BUTTON -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up" aria-hidden="true"><ion-icon>
+  </a>
+  <a href="tel:+919594800509" class="call-btn" aria-label="call button">
+    <ion-icon name="call"></ion-icon>
+  </a>
+
+  <!-- SCRIPT -->
+
+  <script src="script.js" defer></script>
+
+  <!-- IONICON -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
