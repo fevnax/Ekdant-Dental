@@ -1298,15 +1298,16 @@ option {
   }
 }
 
-/* .imgbox {
+.imgbox {
   display: flex;
   flex-direction: column; 
   height: 400px; 
-  width: 400px; 
+  width: auto; 
   align-items: center; 
-  margin-bottom: 200px; 
+  /* margin-bottom: 200px;  */
+  margin-bottom: 50px;
   margin-left: 3%;
-} */
+}
 
 /* @media (max-width: 480px) {
   .client {
@@ -1327,7 +1328,7 @@ option {
 
 } */
 
-@media (min-width: 319px) and (max-width: 480px) {
+/* @media (min-width: 319px) and (max-width: 480px) {
   .imgbox {
   display: flex;
   flex-direction: column; 
@@ -1361,4 +1362,4 @@ option {
   margin-bottom: 200px; 
   margin-left: 32.5%;
   }
-}
+} */
